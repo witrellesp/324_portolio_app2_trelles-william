@@ -1,0 +1,123 @@
+let comments = [
+  {
+    id: 1,
+    text: "La Littérature est génial",
+    bookId: 10,
+    userId: 2,
+  },
+  {
+    id: 2,
+    text: "Les Sciences sont imprésionants",
+    bookId: 10,
+    userId: 4,
+  },
+  {
+    id: 3,
+    text: "Histoire :)",
+    bookId: 10,
+    userId: 4,
+  },
+  {
+    id: 4,
+    text: "Fantaisie...",
+    bookId: 10,
+    userId: 1,
+  },
+  {
+    id: 5,
+    text: "les biographies sont toujours tristes",
+    bookId: 10,
+    userId: 5,
+  },
+  {
+    id: 6,
+    text: "les biographies sont toujours tristes",
+    bookId: 9,
+    userId: 2,
+  },
+  {
+    id: 7,
+    text: "les biographies sont toujours tristes",
+    bookId: 4,
+    userId: 2,
+  },
+  {
+    id: 8,
+    text: "La Littérature est génial",
+    bookId: 4,
+    userId: 3,
+  },
+  {
+    id: 9,
+    text: "La Littérature est génial",
+    bookId: 5,
+    userId: 4,
+  },
+  {
+    id: 10,
+    text: "La Littérature est génial",
+    bookId: 5,
+    userId: 5,
+  },
+  {
+    id: 11,
+    text: "La Littérature est génial",
+    bookId: 6,
+    userId: 1,
+  },
+  {
+    id: 12,
+    text: "La Littérature est génial",
+    bookId: 6,
+    userId: 2,
+  },
+  {
+    id: 13,
+    text: "La Littérature est génial",
+    bookId: 7,
+    userId: 3,
+  },
+  {
+    id: 14,
+    text: "La Littérature est génial",
+    bookId: 7,
+    userId: 4,
+  },
+  {
+    id: 15,
+    text: "La Littérature est génial",
+    bookId: 8,
+    userId: 5,
+  },
+  {
+    id: 16,
+    text: "La Littérature est génial",
+    bookId: 8,
+    userId: 1,
+  },
+  {
+    id: 17,
+    text: "La Littérature est génial",
+    bookId: 9,
+    userId: 2,
+  },
+  {
+    id: 18,
+    text: "La Littérature est génial",
+    bookId: 9,
+    userId: 3,
+  },
+  {
+    id: 19,
+    text: "La Littérature est génial",
+    bookId: 6,
+    userId: 4,
+  },
+  {
+    id: 20,
+    text: "La Littérature est génial",
+    bookId: 10,
+    userId: 5,
+  },
+];
+export { comments };

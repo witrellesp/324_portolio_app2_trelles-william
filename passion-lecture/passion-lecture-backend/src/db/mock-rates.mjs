@@ -1,0 +1,123 @@
+let rates = [
+  {
+    id: 1,
+    rating: 4,
+    bookId: 1,
+    userId: 1,
+  },
+  {
+    id: 2,
+    rating: 5,
+    bookId: 1,
+    userId: 2,
+  },
+  {
+    id: 3,
+    rating: 3,
+    bookId: 2,
+    userId: 3,
+  },
+  {
+    id: 4,
+    rating: 4,
+    bookId: 2,
+    userId: 4,
+  },
+  {
+    id: 5,
+    rating: 3,
+    bookId: 3,
+    userId: 5,
+  },
+  {
+    id: 6,
+    rating: 2,
+    bookId: 3,
+    userId: 1,
+  },
+  {
+    id: 7,
+    rating: 5,
+    bookId: 4,
+    userId: 2,
+  },
+  {
+    id: 8,
+    rating: 5,
+    bookId: 4,
+    userId: 3,
+  },
+  {
+    id: 9,
+    rating: 3,
+    bookId: 5,
+    userId: 4,
+  },
+  {
+    id: 10,
+    rating: 5,
+    bookId: 5,
+    userId: 5,
+  },
+  {
+    id: 11,
+    rating: 4,
+    bookId: 6,
+    userId: 1,
+  },
+  {
+    id: 12,
+    rating: 4,
+    bookId: 6,
+    userId: 2,
+  },
+  {
+    id: 13,
+    rating: 3,
+    bookId: 7,
+    userId: 3,
+  },
+  {
+    id: 14,
+    rating: 3,
+    bookId: 7,
+    userId: 4,
+  },
+  {
+    id: 15,
+    rating: 2,
+    bookId: 8,
+    userId: 5,
+  },
+  {
+    id: 16,
+    rating: 2,
+    bookId: 8,
+    userId: 1,
+  },
+  {
+    id: 17,
+    rating: 4,
+    bookId: 9,
+    userId: 2,
+  },
+  {
+    id: 18,
+    rating: 4,
+    bookId: 9,
+    userId: 3,
+  },
+  {
+    id: 19,
+    rating: 3,
+    bookId: 6,
+    userId: 4,
+  },
+  {
+    id: 20,
+    rating: 4,
+    bookId: 10,
+    userId: 5,
+  },
+];
+export { rates };
