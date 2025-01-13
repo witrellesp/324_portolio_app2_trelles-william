@@ -75,6 +75,9 @@ jobs:
 
         - name: Build frontend
           run: npm run build
+        
+        - name: ls
+          run: ls -la
 
         - name: Upload de l'artefact
           uses: actions/upload-artifact@v4
