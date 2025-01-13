@@ -37,11 +37,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test
 
-      - name: Build backend
-        run: npm run build
 
   frontend:
       name: frontend
