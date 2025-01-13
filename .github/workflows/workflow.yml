@@ -1,0 +1,44 @@
+name: CI/CD Workflow for Passion Lecture
+
+on:
+  push:
+    branches:
+      - develop
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  backend:
+    name: Backend - Install, Test, Build, Deploy
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./passion-lecture/src/passion-lecture-backend
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-backend-${{ hashFiles('passion-lecture/backend/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-backend-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build backend
+        run: npm run build
