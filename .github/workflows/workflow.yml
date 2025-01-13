@@ -11,11 +11,11 @@ on:
 
 jobs:
   backend:
-    name: Backend - Install, Test, Build, Deploy
+    name: Backend
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./passion-lecture/src/passion-lecture-backend
+        working-directory: ./passion-lecture/passion-lecture-backend/src
 
     steps:
       - name: Checkout code
