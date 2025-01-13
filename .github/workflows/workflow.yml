@@ -75,3 +75,10 @@ jobs:
 
         - name: Build frontend
           run: npm run build
+
+        - name: Upload de l'artefact
+          uses: actions/upload-artifact@v4
+          with:
+            name: frontend-build
+            path: ./dist
+
